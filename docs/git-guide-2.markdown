@@ -89,6 +89,7 @@ This exercise operates on the expectation that you have completed exercise 1, if
     git log
     ```
 It should resemble the following image:
+
 ![git log](/images/git-log.png)
 
 2. Let's imagine we'd made several more changes for a review for example. Ideally, we would like to preserve a neat commit history when working on branches. Let's attempt to rebase to facilitate this.
@@ -99,7 +100,9 @@ It should resemble the following image:
     ```
 
 4.  This will open an interactive nano window within your terminal. It should resemble the below screenshot:
+
 ![rebase](/images/rebase.png)
+
 The instructions within should be self explanatory but in this case we want to squash the second commit into the first one.
 
 5. Change the word **"pick"** next to the second commit to **"squash"**. You can also use single letters as outlined within the nano file. Use **ctrl+x** to save and then confirm to perform the rebase.
@@ -114,7 +117,9 @@ The instructions within should be self explanatory but in this case we want to s
     ```
 
 9. The output should be similar to the below screenshot:
+
 ![post rebase](/images/post-rebase.png)
+    
 We've now successfully combined both commit and changed the message to reflect this.
 
 10. Finally, let's push these changes to a remote branch:
