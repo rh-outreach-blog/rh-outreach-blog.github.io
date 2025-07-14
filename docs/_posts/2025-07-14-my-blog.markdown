@@ -1,0 +1,4 @@
+layout: post
+title:  "My Blog Entry"
+date:   2024-07-14 03:00:15 +0100
+categories: jekyll update 
